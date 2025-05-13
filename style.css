@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #3b3b98;
+  background-color: #9999a3;
   color: #fff;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,19 @@ h2 {
   text-align: center;
 }
 
+label:hover {
+  color: black;
+}
 .container {
   background-color: #23235b;
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
   padding: 20px;
   width: 350px;
   max-width: 100%;
+  border: 2px solid grey;
+}
+.container:hover {
+  background-color: rgb(98, 26, 50);
 }
 
 .result-container {
